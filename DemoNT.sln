@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wetter-app", "wetter-app\", "{9CA3DA93-A0FA-42A7-A44D-07F83B432938}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50933"
+		Debug.AspNetCompiler.PhysicalPath = "wetter-app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50933\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50933"
+		Release.AspNetCompiler.PhysicalPath = "wetter-app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50933\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50933"
+		SlnRelativePath = "wetter-app\"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{238E45D6-2637-482B-9075-4039168C8F98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitTesting", "xUnitTesting\xUnitTesting.csproj", "{DE9AB29F-8597-46EE-A432-F956B340EF8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA3DA93-A0FA-42A7-A44D-07F83B432938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA3DA93-A0FA-42A7-A44D-07F83B432938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA3DA93-A0FA-42A7-A44D-07F83B432938}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA3DA93-A0FA-42A7-A44D-07F83B432938}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{238E45D6-2637-482B-9075-4039168C8F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238E45D6-2637-482B-9075-4039168C8F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238E45D6-2637-482B-9075-4039168C8F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238E45D6-2637-482B-9075-4039168C8F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9AB29F-8597-46EE-A432-F956B340EF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9AB29F-8597-46EE-A432-F956B340EF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9AB29F-8597-46EE-A432-F956B340EF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9AB29F-8597-46EE-A432-F956B340EF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAC82B9B-C061-4873-86D0-551DE65838E0}
+	EndGlobalSection
+EndGlobal
